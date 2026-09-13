@@ -8,7 +8,7 @@ I build inspectable AI applications for funding, municipal administration and ho
 |---|---|---|
 | [eufund-exhibit](https://github.com/Bogdan0708/eufund-exhibit) | Phase transitions, tool/write gates, citations and provider failover | Runnable public extract; synthetic fixtures and injected providers. Full EuFund platform is private. |
 | [local-ai-gateway](https://github.com/Bogdan0708/local-ai-gateway) | FastAPI, hybrid retrieval, file ingestion, authentication and redirect checks | Local-service implementation and security tests; no hosted service claimed. |
-| [AI-gateway](https://github.com/Bogdan0708/AI-gateway) | OpenAI-compatible routing, spend controls, observability and failure handling | Published source and CI; live health is separate evidence. The deployed commit remains unverified. |
+| [AI-gateway](https://github.com/Bogdan0708/AI-gateway) | OpenAI-compatible routing, spend controls, observability and failure handling | Offline portfolio implementation with tests and CI; no hosted demo offered. |
 | [PrimatIA](https://github.com/Bogdan0708/PrimatIA) | Municipal tax workflows, PostgreSQL RLS, PII encryption and XML regression fixtures | Portfolio/pilot-stage; no public municipality deployment or compliance certification. |
 | [local-llm-mcp](https://github.com/Bogdan0708/local-llm-mcp) | Local-model MCP tools, queueing, deadlines and telemetry | Tests use mock servers; benchmark reports describe their recorded hardware/run. |
 | [grant-scout](https://github.com/Bogdan0708/grant-scout) | Small cited RAG agent with deterministic eligibility checks | Dated 30-record snapshot; deployment pending. Model-backed evaluation reports separately record tool use, retrieval, citations and failures; unit-test CI alone is not a behavioral pass. |
