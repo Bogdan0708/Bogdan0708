@@ -1,20 +1,23 @@
-# Vasile Bogdan Godja — Applied AI engineer, founder-operator
+# Vasile Bogdan Godja — Applied AI developer
 
-I build inspectable AI applications for funding, municipal administration and hospitality workflows. TypeScript/Node first, Python/FastAPI where it fits; agent controls, retrieval, multi-provider routing and MCP. My operations background informs which steps stay deterministic, what requires human approval and how failures are handled.
+I build TypeScript/Next.js applications, Node.js services and n8n workflows for funding, hospitality and municipal administration. My background in operations leadership and EU-funded delivery helps me turn domain requirements into deterministic rules, controlled AI workflows and useful tests.
 
-[Portfolio and CV](https://bogdan0708.github.io) · London, UK · godjabogdan@gmail.com
+[Portfolio and CV](https://bogdan0708.github.io/) · London, UK · godjabogdan@gmail.com
 
-| Start here | What to inspect | Evidence boundary |
+## Selected projects
+
+| Project | Engineering evidence | Status |
 |---|---|---|
-| [eufund-exhibit](https://github.com/Bogdan0708/eufund-exhibit) | Phase transitions, tool/write gates, citations and provider failover | Runnable public extract; synthetic fixtures and injected providers. Full EuFund platform is private. |
-| [local-ai-gateway](https://github.com/Bogdan0708/local-ai-gateway) | FastAPI, hybrid retrieval, file ingestion, authentication and redirect checks | Local-service implementation and security tests; no hosted service claimed. |
-| [AI-gateway](https://github.com/Bogdan0708/AI-gateway) | OpenAI-compatible routing, spend controls, observability and failure handling | Offline portfolio implementation with tests and CI; no hosted demo offered. |
-| [PrimatIA](https://github.com/Bogdan0708/PrimatIA) | Municipal tax workflows, PostgreSQL RLS, PII encryption and XML regression fixtures | Portfolio/pilot-stage; no public municipality deployment or compliance certification. |
-| [local-llm-mcp](https://github.com/Bogdan0708/local-llm-mcp) | Local-model MCP tools, queueing, deadlines and telemetry | Tests use mock servers; benchmark reports describe their recorded hardware/run. |
-| [grant-scout](https://github.com/Bogdan0708/grant-scout) | Small cited RAG agent with deterministic eligibility checks | Dated 30-record snapshot; deployment pending. Model-backed evaluation reports separately record tool use, retrieval, citations and failures; unit-test CI alone is not a behavioral pass. |
+| [EuFund public exhibit](https://github.com/Bogdan0708/eufund-exhibit) | Phase transitions, bounded tools, write gates, citation checks and provider failover; 57 tests in the dated September 13 verification. | Runnable extract with synthetic fixtures and injected providers. Main platform private and offline. |
+| [MitchAI case study](https://bogdan0708.github.io/MitchAI_Case_Study.pdf) | Hospitality backend with 193 passing tests, none skipped, in the September 13 verification. Eight n8n workflows exercised through ten synthetic HTTP scenarios. | Offline. Model endpoints and database persistence were substituted. Source made private on September 14; credential revocation and history cleanup remain pending. |
+| [PrimărIA](https://github.com/Bogdan0708/PrimatIA) | Next.js/PostgreSQL municipal workflows: forced RLS across 34 tenant tables, deterministic tax modules and XML exporter fixtures. 318 offline tests plus 9 real-PostgreSQL isolation tests, both run in CI. | Offline portfolio implementation. Database tests run under a restricted role. No municipal adoption or compliance certification claimed. `PrimatIA` is the repository slug for PrimărIA. |
 
-Supporting examples: [Veloce fare engine](https://github.com/Bogdan0708/veloce-transfers-fare-engine) (deterministic pricing and DST), [Benjamins](https://github.com/Bogdan0708/benjamins-at-the-landsby) (13 operations demonstrations with synthetic data), [Japan Agent](https://github.com/Bogdan0708/Japan_Agent) (paper/research approval and audit controls), [Brand Voice](https://github.com/Bogdan0708/brand-voice-content-service) (Python microservices), and [Site Quality Gates](https://github.com/Bogdan0708/site-quality-gates) (static-site release checks).
+## Supporting work
 
-MitchAI is supporting work: 136 backend tests pass (49 skipped), and eight n8n workflows have isolated synthetic execution evidence across ten HTTP scenarios. Provider endpoints and the database sink are substituted; public-history cleanup and current production verification remain pending.
+- [Grant Scout](https://github.com/Bogdan0708/grant-scout): cited funding retrieval and deterministic eligibility over a dated 30-record snapshot; 48 offline tests. The recorded provider evaluation and tool-compliance result are separate from unit-test CI. Deployment pending.
+- [Review Responder](https://github.com/Bogdan0708/review-responder): approval tied to the reviewed reply version, publication fencing and uncertain-outcome reconciliation. Offline demo.
+- [AI Gateway](https://github.com/Bogdan0708/AI-gateway): provider routing, spend controls and failure handling. Offline implementation; no hosted demo offered.
+- [Local AI Gateway](https://github.com/Bogdan0708/local-ai-gateway) and [Local LLM MCP](https://github.com/Bogdan0708/local-llm-mcp): local retrieval, model tools, queueing and telemetry; scope and reproduction instructions in each repository.
+- [Veloce fare engine](https://github.com/Bogdan0708/veloce-transfers-fare-engine): deterministic pricing and DST handling extracted from a private transfer-operator project.
 
-Tests, CI, deployment and customer outcomes are different evidence. Each repository documents its scope and how to reproduce its checks; none of these links alone establishes customer adoption or measured business results.
+Dated tests and synthetic execution demonstrate specific engineering behaviour. They do not establish production operation, client adoption or measured business outcomes. Source, scope and reproduction notes accompany each project.
