@@ -2,6 +2,8 @@
 
 I build TypeScript/Next.js applications, Node.js services and n8n workflows for funding, hospitality and municipal administration. My background in operations leadership and EU-funded delivery helps me turn domain requirements into deterministic rules, controlled AI workflows and useful tests.
 
+I began independent AI work in early 2025 alongside my Mitch from Transylvania food stall. After closing the stall in September 2025, I joined Wilde as a full-time Restaurant Manager; I continue AI development in my spare time, a few hours a day.
+
 [Portfolio and CV](https://bogdan0708.github.io/) · London, UK · godjabogdan@gmail.com
 
 ## Selected projects
